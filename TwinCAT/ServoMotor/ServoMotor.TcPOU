@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject>
+    <POU Name="FB_ServoMotor" Id="{00000000-0000-0000-0000-000000000000}">
+        <Declaration><![CDATA[
+FUNCTION_BLOCK FB_ServoMotor
+VAR
+    bEnable : BOOL;
+END_VAR
+]]></Declaration>
+        <Implementation><![CDATA[
+    // TODO: implement servo motor control logic
+END_FUNCTION_BLOCK
+]]></Implementation>
+    </POU>
+</TcPlcObject>
