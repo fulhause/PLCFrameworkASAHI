@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject>
+    <POU Name="FB_AirCylinder" Id="{00000000-0000-0000-0000-000000000002}">
+        <Declaration><![CDATA[
+FUNCTION_BLOCK FB_AirCylinder
+VAR
+    bEnable : BOOL;
+END_VAR
+]]></Declaration>
+        <Implementation><![CDATA[
+    // TODO: implement air cylinder control logic
+END_FUNCTION_BLOCK
+]]></Implementation>
+    </POU>
+</TcPlcObject>
