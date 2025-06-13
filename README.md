@@ -25,6 +25,15 @@ PLCFrameworkASAHI は、IEC61131-3 で定義されたソフトウェアが動作
 
 現在はリポジトリを作成し、ライセンスを追加した段階です。今後、上記ロードマップに沿って開発を進めていく予定です。
 
+## TwinCAT3 でのライブラリ利用方法
+
+`TwinCAT/` ディレクトリには `ServoMotor`、`Inverter`、`AirCylinder` 用のサンプル
+ライブラリが配置されています。TwinCAT3 プロジェクトに組み込むには、Solution
+Explorer の **Libraries** を右クリックし、**Add Existing Library...** を選択して
+各フォルダーの `.TcPOU` ファイルを指定してください。インポート後は通常の
+ライブラリと同様に関数ブロックを使用できます。
+
+
 ## ライセンス
 
 本プロジェクトは [Apache License 2.0](LICENSE) の下で公開されています。
